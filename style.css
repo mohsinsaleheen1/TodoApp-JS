@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #02071f, #030822);
+}
+.alert {
+  padding: 10px 10px 0px 10px !important;
+  background-color: rgb(224, 174, 109);
+}
+.fa-xmark {
+  color: red;
+  cursor: pointer;
+  font-size: larger;
+}
+.main {
+  height: 94vh;
+}
+.txt {
+  font-size: 40px;
+  background: -webkit-linear-gradient(red, rgba(255, 255, 0, 0.767));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.todotxt {
+  background-color: rgb(48, 48, 48) !important;
+  border: none !important;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px;
+  color: silver;
+}
+.todotxt:focus {
+  background-color: #030822 !important;
+}
+button {
+  border-radius: 5px;
+  border: none;
+}
+.btn1 {
+  background-color: rgb(97, 187, 109) !important;
+  font-size: 20px;
+}
+.btn1:hover {
+  background-color: rgb(83, 165, 94) !important;
+}
+.btn2 {
+  background-color: rgb(230, 82, 82);
+  font-size: 20px;
+}
+.btn2:hover {
+  background-color: rgb(211, 71, 71);
+}
+.todos {
+  width: 400px;
+  margin-top: 20px;
+  text-align: center;
+}
+ul {
+  margin: 20px 20px 10px 20px;
+}
+.todobtn {
+  border-radius: 100%;
+  padding: 12px;
+  margin: 0px 10px;
+  background-color: rgb(48, 48, 48);
+  color: #fff;
+}
